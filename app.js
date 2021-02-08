@@ -96,7 +96,7 @@ function init(){
     wordDensityContainer.innerHTML = '' ;
     for(var i = 0 ; i < wordDensity.length ; i++){
         wordDensityContainer.innerHTML += 
-        '<li><span>' + wordDensity[i].word + '</span><span>' +  wordDensity[i].iteration + '</span><span>' + Number((wordDensity[i].iteration / nbWords * 100).toFixed(2)) + '%</span></li>' ;
+        '<li><span>' + wordDensity[i].word + '</span><span>' +  wordDensity[i].iteration + '</span><span>' + Number((wordDensity[i].iteration / nbWords * 100).toFixed(1)) + '%</span></li>' ;
     }
 }
 init() ;

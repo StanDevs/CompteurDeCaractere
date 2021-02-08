@@ -95,7 +95,10 @@ ul {
 }
 
 li {
-    padding:10px 10px;
+    padding:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li > span {
@@ -103,14 +106,14 @@ li > span {
 }
 
 li > span:first-child {
-    width:60%;
+    width:50%;
     overflow: hidden; 
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
 li > span:not(:first-child) {
-    width:20%;
+    width:25%;
     text-align:center;
 }
 
@@ -131,11 +134,6 @@ footer {
     main {
         width:90%;
     }
-
-    
-}
-
-@media screen and (max-width:425px){
     main {
         height: 90%;
         top:0;
@@ -155,6 +153,11 @@ footer {
     }
 
     #data{
+        height:25%;
         flex-direction:column;
     }
+}
+
+@media screen and (max-width:596px){
+    
 }
