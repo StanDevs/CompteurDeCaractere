@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Compteur de mots</title>
+</head>
+<body>
+    <main>
+        <div class="mainContainer">
+            <textarea name="" id="txt" placeholder="Entrez votre texte ici"></textarea>
+            
+            <div id="data">
+                <div  class='dataContainer'>
+                    <span class='label'>Caractères</span>
+                    <span id="char"></span>
+                </div>
+                
+                <div class='dataContainer'>
+                    <span class='label'>words</span>
+                    <span id="words"></span>
+                </div>
+                
+                <div class='dataContainer'>
+                    <span class='label'>space</span>
+                    <span id="space"></span>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <ul id="wordDensity"></ul>
+    </main>
+    <footer>© Stan Devs</footer>
+    <script src="app.js"></script>
+</body>
+</html>
